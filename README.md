@@ -1,5 +1,5 @@
 # TerminalChess
-C++ script to play a simple game of chess within the terminal, using a text-only display. No GUI's need apply.
+C++ script to play a simple game of chess within the terminal, using a text-only display. GUI's need not apply.
 
 The user simply enters a move using the syntax described next to the board. An algorithm tests every possible move
 within the board, and filters out the illegal ones. If the user's chosen move is in the list of legal moves, the
