@@ -101,13 +101,13 @@ const string whiteFG = "\e[38;5;15m";
 const string blackFG = "\e[38;5;232m";
 const string titleFG = "\e[38;5;28m";
 const string reset = "\e[0m";
-const string empty = "   ";
+const string emptyStr = "   ";
 // const string whiteBG = "";    // changes bg/fg color in non-unix os
 // const string blackBG = "";
 // const string whiteFG = "";
 // const string blackFG = "";
 // const string reset = "";
-// const string empty = "   ";
+// const string emptyStr = "   ";
 // const string titleFG = "";
 
 int turn = 0;
@@ -461,7 +461,7 @@ void displayBoard(Piece board[ROWS][COLUMNS], bool inCheck, bool inStalemate, st
       if (currPiece != "-") {
         cout << currPiece;
       } else {
-        cout << empty;
+        cout << emptyStr;
       }
     }
     if (i == 7) {
