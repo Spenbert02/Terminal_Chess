@@ -596,6 +596,4 @@ void initializeBoard(Piece board[ROWS][COLUMNS]) {
   board[7][5] = Piece("black", 'B');
   board[7][6] = Piece("black", 'N');
   board[7][7] = Piece("black", 'R');
-
-  //Test Pieces:
 }
