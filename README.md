@@ -9,3 +9,5 @@ checkmate (no possible moves and king under attack) and stalemate (no possible m
 terminalChessUnix.cpp includes enhanced display features for macOS/linux operating systems. Unicode chess characters and
 escape sequences are used to make the display more colorful and easier to interpret. terminalChessUniversal.cpp
 functions on all operating systems, but includes a raw text-only display.
+
+Features not yet incorporated: en passant, pawn promotion.
