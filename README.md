@@ -10,4 +10,4 @@ terminalChessUnix.cpp includes enhanced display features for macOS/linux operati
 escape sequences are used to make the display more colorful and easier to interpret. terminalChessUniversal.cpp
 functions on all operating systems, but includes a raw text-only display.
 
-Features not yet incorporated: en passant, pawn promotion.
+Features not yet supported: en passant, pawn promotion.
