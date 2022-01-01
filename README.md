@@ -13,4 +13,4 @@ functions on all operating systems, but includes a raw text-only display.
 Features not yet supported: en passant, pawn promotion.
 
 ## Mac Display
-![Terminal Chess](terminalchesspic.png)
+![Terminal Chess on Mac](terminal_chess_osx.png)
