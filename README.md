@@ -6,7 +6,7 @@ within the board, and filters out the illegal ones. If the user's chosen move is
 move is executed. Otherwise, the user must reenter a different move. Every turn, the current board is checked for
 checkmate (no possible moves and king under attack) and stalemate (no possible moves and king not under attack).
 
-terminalChessMac.cpp includes enhanced display features for Mac operating systems. Unicode chess characters and
+terminalChessOSX.cpp includes enhanced display features for Mac operating systems. Unicode chess characters and
 escape sequences are used to make the display more colorful and easier to interpret. terminalChessUniversal.cpp
 functions on all operating systems, but includes a raw text-only display.
 
